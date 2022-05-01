@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a_MCA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgimg"
+        >
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Year to declare the results for MCA"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+
+        />
+
+        <TextView
+            android:id="@+id/tFYmca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="50dp"
+            android:text="FY MCA"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:textSize="32dp"
+            android:layout_marginLeft="50dp"
+
+            />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/fymca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_below="@+id/tv1"
+            android:layout_toRightOf="@+id/tFYmca"
+            android:layout_marginTop="55dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="50dp"
+            app:trackTint="@android:color/darker_gray"
+            />
+        <TextView
+            android:id="@+id/tSYmca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tFYmca"
+            android:layout_marginTop="40dp"
+            android:text="SY MCA"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:textSize="32dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tSYmca"
+            android:text="Enalable to declare and disable to keep the mark sheets hidden"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="190dp"
+
+            />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/symca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_below="@+id/fymca"
+            android:layout_toRightOf="@+id/tSYmca"
+            android:layout_marginTop="55dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="50dp"
+            app:trackTint="@android:color/darker_gray"
+            />
+
+    </RelativeLayout>
+</ScrollView>

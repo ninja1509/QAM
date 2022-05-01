@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_a_choice.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_admin_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_attendence.xml" value="0.18" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_qrgenerate.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_s_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_scanner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/activity_student.xml" value="0.3571790969051243" />
+        <entry key="..\:/Users/samaah/Desktop/Last Hope/qam-v1.0-master/app/src/main/res/layout/list_row.xml" value="0.22" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_a_choice.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_ad_streams.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_amba.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_amca.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_attendence.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_main.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_mselection.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_qrgenerate.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_result.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_scanner.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/activity_student.xml" value="0.22" />
+        <entry key="..\:/Users/samaah/Desktop/hey/app/src/main/res/layout/list_row.xml" value="0.1859375" />
+        <entry key="..\:/Users/samaah/Desktop/patch/app/src/main/res/layout/activity_attendence.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/samaah/Desktop/patch/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

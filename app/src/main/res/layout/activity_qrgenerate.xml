@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qrgenerate">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgimg">
+
+
+<EditText
+    android:id="@+id/qrInput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@android:color/white"
+    android:hint="Enter your Roll No"
+
+    android:gravity="center"
+    android:textColor="@android:color/black"
+    android:textSize="20dp"
+    android:padding="7dp"
+
+    />
+
+
+        <ImageView
+            android:id="@+id/qrPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@+id/qrInput"
+            android:layout_margin="25dp"
+           />
+
+            <Button
+                android:id="@+id/generaterBtn"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/qrPlaceHolder"
+                android:layout_height="120dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button"
+                android:text="Generate QR Code"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"  />
+
+    </RelativeLayout>
+
+</ScrollView>

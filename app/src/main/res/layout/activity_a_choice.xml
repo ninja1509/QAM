@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    tools:context=".a_choice">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/button"
+            android:text="Scan QR"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"  />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_below="@+id/scanBtn"
+            android:background="@drawable/button"
+            android:text="Check Attendance"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"  />
+
+        <Button
+            android:id="@+id/Dmarks"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_below="@+id/check"
+            android:background="@drawable/button"
+            android:text="Declare Marksheet"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"  />
+    </RelativeLayout>
+
+</ScrollView>
